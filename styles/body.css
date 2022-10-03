@@ -1,0 +1,499 @@
+.herosection-wrapper {
+    height: calc(100vh - 78px);
+}
+
+.herosection-wrapper .left-section {
+    padding: 90px 0;
+}
+
+.herosection-wrapper .left-section {
+    width: 40%;
+}
+
+.herosection-wrapper .right-section {
+    width: 60%;
+}
+
+.herosection-wrapper .right-section img {
+    width: 90%;
+    object-fit: cover;
+    height: 80vh;
+    object-position: top center;
+}
+
+.herosection-wrapper .left-section h2 {
+    font-size: 90px;
+    line-height: 85px;
+    font-weight: normal;
+}
+
+.herosection-wrapper .left-section h5 {
+    font-size: 36px;
+    color: var(--secondary-bg-color);
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.herosection-wrapper .left-section h2 span {
+    box-shadow: inset 0 -0.25em var(--main-bg-color), inset 0 -0.52em var(--secondary-bg-color);
+    padding-right: 20px;
+}
+
+.herosection-wrapper .left-section p {
+    font-size: 32px;
+    width: 75%;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+/* Our team */
+
+.team-wrapper {
+    padding: 80px 30px;
+}
+
+.team-member .profile-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: auto auto 20px;
+}
+
+.team-member .profile-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team-member-detail {
+    width: 75%;
+    margin: auto;
+}
+
+.team-member-detail h5 {
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.team-member-detail p {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+/* About us */
+
+.about-wrapper {
+    padding: 80px 0;
+}
+
+.about-wrapper p {
+    font-size: 27px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 60%;
+    margin: 10px auto 20px;
+}
+
+.about-wrapper img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+
+.about-button {
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Compete */
+
+.compete-wrapper {
+    padding: 40px 0 80px;
+}
+
+.compete-wrapper .left-section {
+    width: 55%;
+}
+
+.compete-wrapper .right-section .discription {
+    max-width: 53%;
+    text-align: right;
+    margin: 10px 0 30px;
+}
+
+.compete-wrapper .right-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.compete-wrapper .left-section img {
+    width: 90%;
+    height: 600px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+/*  our trainig */
+
+.training-wrapper {
+    padding: 80px 0 80px;
+}
+
+.training-wrapper .left-section {
+    width: 40%;
+    padding-top: 60px;
+}
+
+.training-wrapper .left-section .discription {
+    max-width: 60%;
+    margin: 5px 0 20px;
+}
+
+.training-wrapper .right-section {
+    width: 60%;
+    align-items: flex-start;
+}
+
+.training-wrapper .right-section img {
+    width: 90%;
+    height: 600px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+/* Blog */
+
+.blog-wrapper {
+    padding: 60px 0;
+    background-color: #000086;
+}
+
+.blog-wrapper .row {
+    margin-top: 50px;
+}
+
+.blog-wrapper .blog-image {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.blog-wrapper .blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-wrapper h3 {
+    font-size: 30px;
+    line-height: 33px;
+}
+
+.blog-wrapper p {
+    font-size: 15px;
+    line-height: 18px;
+    opacity: 0.8;
+}
+
+/* Newsletter */
+
+.newsletter-wrapper {
+    padding: 80px 0;
+}
+
+.newsletter-wrapper form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-wrapper .left-section {
+    width: 50%;
+}
+
+.newsletter-wrapper .left-section h2 {
+    font-size: 55px;
+}
+
+.newsletter-wrapper .left-section p {
+    font-size: 30px;
+    line-height: 33px;
+    max-width: 70%;
+}
+
+.newsletter-wrapper .right-section {
+    width: 50%;
+}
+
+.newsletter-wrapper .form-fields-wrapper {
+    background-color: var(--secondary-bg-color);
+    padding: 30px;
+}
+
+.newsletter-wrapper h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.newsletter-wrapper .form-group {
+    margin-bottom: 25px;
+}
+
+.newsletter-wrapper .form-fields-wrapper input,
+.newsletter-wrapper textarea {
+    border-radius: 0;
+    border: 2px solid white;
+    color: #fff;
+    background: transparent;
+}
+
+.newsletter-wrapper .form-fields-wrapper input::placeholder {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.newsletter-wrapper textarea:focus {
+  background: transparent;
+  color: #fff;
+}
+
+.newsletter-wrapper .checkbox {
+    display: flex;
+}
+
+.newsletter-wrapper .checkbox input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+}
+
+.newsletter-wrapper .checkbox label {
+  width: calc(100% - 55px);
+}
+
+/* Contact us */
+
+.contact-wrapper {
+    padding: 80px 0 40px;
+}
+
+.contact-wrapper .map {
+    height: 75vh;
+    width: 100%;
+    margin: 30px auto 30px;
+}
+
+.contact-wrapper .map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-wrapper .description {
+    max-width: 55%;
+    margin: auto;
+    font-size: 30px;
+    line-height: 33px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .herosection-wrapper .left-section {
+        padding: 40px 0;
+    }
+
+    .compete-wrapper .left-section img,
+    .training-wrapper .right-section img {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .herosection-wrapper {
+        height: auto;
+    }
+
+    .herosection-wrapper .left-section {
+        width: 100%;
+    }
+
+    .herosection-wrapper .right-section {
+        width: 100%;
+    }
+
+    .herosection-wrapper .left-section h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .herosection-wrapper .left-section h5 {
+        font-size: 30px;
+    }
+
+    .herosection-wrapper .left-section p {
+        font-size: 27px;
+    }
+
+    .herosection-wrapper .right-section img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .team-member .profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .team-member-detail h3 {
+        font-size: 22px;
+    }
+
+    .team-member-detail p {
+        font-size: 18px;
+    }
+
+    .about-wrapper {
+        padding: 0 0 80px;
+    }
+
+    .about-wrapper p {
+        font-size: 22px;
+        max-width: 80%;
+    }
+
+    .about-wrapper img {
+        height: 180px;
+    }
+
+    .about-button {
+        margin-top: 30px;
+    }
+
+    .compete-wrapper {
+        padding: 40px 15px 80px;
+    }
+
+    .compete-wrapper .left-section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .compete-wrapper .right-section {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .compete-wrapper .right-section .discription {
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .compete-wrapper .left-section img,
+    .training-wrapper .right-section img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .training-wrapper {
+        padding: 80px 15px;
+        flex-direction: column-reverse;
+    }
+
+    .training-wrapper .left-section {
+        width: 100%;
+        padding: 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .training-wrapper .right-section {
+        width: 100%;
+    }
+
+    .training-wrapper .section-title {
+        text-align: center;
+    }
+
+    .training-wrapper .left-section .discription {
+        margin: 10px auto 30px;
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .blog-wrapper .row {
+       flex-direction: column;
+    }
+
+    .blog-wrapper .col {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .blog-wrapper .col:last-child {
+        margin-bottom: 0;
+    }
+
+    .blog-wrapper .blog-image {
+        height: 160px;
+    }
+
+    .blog-wrapper h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    .newsletter-wrapper {
+        padding: 80px 15px;
+    }
+
+    .newsletter-wrapper form {
+        flex-direction: column;
+    }
+
+    .newsletter-wrapper .left-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .newsletter-wrapper .left-section h2 {
+        font-size: 42px;
+    }
+
+    .newsletter-wrapper .left-section p {
+        max-width: 90%;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .newsletter-wrapper .right-section {
+        width: 100%;
+    }
+
+    .newsletter-wrapper .form-fields-wrapper {
+        padding: 15px;
+    }
+
+    .contact-wrapper .map {
+        height: 220px;
+    }
+
+    .contact-wrapper .description {
+        max-width: 80%;
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
